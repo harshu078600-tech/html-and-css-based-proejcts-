@@ -1,0 +1,8 @@
+.first{
+  height:300px;
+  width: 300px;
+  margin:50px;
+  padding: 50px;
+  background-color: red;
+  border:10px solid black;
+}
