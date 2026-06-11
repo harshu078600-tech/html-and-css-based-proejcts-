@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnSphere – Web Dev & ML Courses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="first_project.css">
+
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+
+      <!-- Left: hamburger + logo -->
+      <div class="nav-left">
+        <i class="fas fa-bars hamburger"></i>
+        <a href="#home" class="logo">
+          <i class="fas fa-graduation-cap"></i>
+          Learn<span>Sphere</span>
+        </a>
+      </div>
+
+      <!-- Middle: menu links -->
+      <ul class="nav-mid">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <!-- Right: icons -->
+      <div class="nav-right">
+        <i class="fas fa-user-circle nav-icon" title="Profile"></i>
+        <i class="fas fa-cog nav-icon" title="Settings"></i>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+     LANDING / HERO
+═══════════════════════════════════════ -->
+  <section id="home">
+    <div class="hero-inner">
+
+      <!-- Left content -->
+      <div class="hero-left">
+        <span class="hero-eyebrow">🚀 New courses every week</span>
+        <h1>Here you get all courses like <em>Web Development</em> and <em>Machine Learning</em>, etc.</h1>
+        <p>Master in-demand skills with hands-on projects, expert mentors, and a thriving community of learners. Start
+          free — no credit card needed.</p>
+        <div class="hero-btns">
+          <a href="#about" class="btn btn-primary"><i class="fas fa-rocket"></i> Explore Courses</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-play-circle"></i> Watch Demo</a>
+        </div>
+      </div>
+
+      <!-- Right: web dev AI image -->
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=900&auto=format&fit=crop"
+            alt="Web development with AI — code on dual monitors" />
+          <div class="hero-badge">
+            <span>🎓</span> 12,000+ learners enrolled
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     ABOUT US
+═══════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-inner">
+
+      <!-- Left: man / instructor image -->
+      <div class="about-left">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=700&auto=format&fit=crop&q=80"
+            alt="Instructor teaching online" />
+        </div>
+      </div>
+
+      <!-- Right: content -->
+      <div class="about-right">
+        <span class="section-tag">About Us</span>
+        <h2>We make <em>learning</em> genuinely accessible</h2>
+        <p>
+          LearnSphere was built by developers and data scientists who believe great education should be affordable and
+          actionable. From your first line of HTML to deploying production ML models, we walk alongside you every step
+          of the way.
+        </p>
+        <div class="about-pills">
+          <span class="pill"><i class="fas fa-code"></i> Web Development</span>
+          <span class="pill"><i class="fas fa-brain"></i> Machine Learning</span>
+          <span class="pill"><i class="fas fa-database"></i> Data Science</span>
+          <span class="pill"><i class="fas fa-mobile-alt"></i> App Development</span>
+          <span class="pill"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+        </div>
+        <a href="#contact" class="btn btn-primary">More About Us &nbsp;<i class="fas fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     CONTACT US
+═══════════════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-inner">
+      <span class="section-tag">Contact Us</span>
+      <h2>Get in touch with us</h2>
+      <p>Have questions? Fill in the form and we'll get back to you within 24 hours.</p>
+
+      <!-- Form -->
+      <div class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91 98765 43210" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea id="address" placeholder="Your full address…"></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button class="btn btn-primary" type="button">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-row">
+        <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+  <footer id="projects">
+    <div class="footer-grid">
+
+
+      <div class="footer-col">
+        <div class="footer-logo">Learn<span>Sphere</span></div>
+        <p>Your one-stop destination for mastering Web Development, Machine Learning, and beyond.</p>
+        <a href="#home" class="btn btn-outline"><i class="fas fa-compass"></i> Explore</a>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-angle-right"></i> About Us</a></li>
+          <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></li>
+          <li><a href="#projects"><i class="fas fa-angle-right"></i> Projects</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Latest Updates -->
+      <div class="footer-col">
+        <h4>Latest Updates</h4>
+        <a href="#" class="update-box">🔥 New: React 19 Full Course</a>
+        <a href="#" class="update-box">🤖 LLM Fine-Tuning Workshop</a>
+        <a href="#" class="update-box">📦 Docker & DevOps Bootcamp</a>
+      </div>
+
+      <!-- Col 4: Projects -->
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <div class="project-item">
+          <a href="#">Portfolio Builder</a>
+          <span class="tag">Web</span>
+        </div>
+        <div class="project-item">
+          <a href="#">Image Classifier</a>
+          <span class="tag">ML</span>
+        </div>
+        <div class="project-item">
+          <a href="#">Chat App</a>
+          <span class="tag">Full-Stack</span>
+        </div>
+        <div class="project-item">
+          <a href="#">Sentiment Analyser</a>
+          <span class="tag">NLP</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 LearnSphere. All rights reserved.</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
