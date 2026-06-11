@@ -1,0 +1,158 @@
+/* ==========================
+   Default Reset
+========================== */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* ==========================
+   Page Styling
+========================== */
+
+body{
+  padding:30px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ==========================
+   Heading Text Properties
+========================== */
+
+h1{
+
+  background-color:royalblue;
+  color:white;
+
+  /* text alignment */
+  text-align:center;
+
+  /* text decoration */
+  text-decoration-line:line-through;
+  text-decoration-color:red;
+  text-decoration-style:wavy;
+  text-decoration-thickness:3px;
+
+  /* first line indentation */
+  text-indent:30px;
+
+  /* text spacing */
+  letter-spacing:4px;
+  word-spacing:20px;
+  line-height:70px;
+
+  /* text transformation */
+  text-transform:uppercase;
+
+  /* text shadow */
+  text-shadow:2px 2px 3px gray;
+
+  /* font properties */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:50px;
+  font-weight:bold;
+  font-style:italic;
+
+  padding:20px;
+  margin-bottom:30px;
+}
+
+/* ==========================
+   Paragraph Text Properties
+========================== */
+
+p{
+
+  text-align:justify;
+
+  text-align-last:center;
+
+  direction:ltr;
+
+  color:#333;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size:18px;
+
+  font-weight:500;
+
+  font-style:normal;
+
+  line-height:1.8;
+
+  letter-spacing:1px;
+
+  word-spacing:5px;
+
+  margin-bottom:20px;
+}
+
+/* ==========================
+   Span Styling
+========================== */
+
+.span1{
+
+  background-color:brown;
+  color:white;
+
+  padding:5px 10px;
+}
+
+.span2{
+
+  background-color:violet;
+
+  padding:5px 10px;
+}
+
+/* ==========================
+   Font Properties Demo
+========================== */
+
+.font-demo{
+
+  margin-top:40px;
+
+  font-family:"Times New Roman", Times, serif;
+
+  font-size:40px;
+
+  font-weight:900;
+
+  font-style:oblique;
+
+  font-variant:small-caps;
+
+  color:darkblue;
+}
+
+/* ==========================
+   More Text Formatting
+========================== */
+
+.font-demo-text{
+
+  margin-top:15px;
+
+  text-transform:uppercase;
+
+  text-decoration-line:underline;
+
+  text-decoration-style:dashed;
+
+  text-decoration-color:blue;
+
+  text-decoration-thickness:2px;
+
+  letter-spacing:3px;
+
+  word-spacing:10px;
+
+  line-height:2;
+
+  text-shadow:1px 1px 2px lightgray;
+}

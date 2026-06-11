@@ -1,0 +1,111 @@
+/* ==========================
+   Reset Default Browser Style
+========================== */
+
+*{
+  margin:0;
+}
+
+/* ==========================
+   Selection Pseudo Element
+   Changes selected text color
+========================== */
+
+*::selection{
+  background-color:burlywood;
+  color:pink;
+}
+
+/* ==========================
+   Descendant Selector
+
+   Select all <p> elements
+   inside a div
+========================== */
+
+div p{
+  background-color:brown;
+}
+
+/* ==========================
+   Simple Border Practice
+========================== */
+
+div{
+  border:2px solid black;
+}
+
+/* ==========================
+   Hover Pseudo Class
+
+   When user hovers on div,
+   paragraph inside div changes
+========================== */
+
+div:hover p{
+  background-color:cornflowerblue;
+}
+
+/* ==========================
+   Attribute Selector
+
+   Select anchor tags having
+   target attribute
+========================== */
+
+a[target]{
+  background-color:blueviolet;
+}
+
+/* ==========================
+   Adjacent Sibling Selector
+
+   Select only immediate next p
+   after .parabox
+========================== */
+
+.parabox + p{
+  background-color:goldenrod;
+}
+
+/* Hover State */
+
+.parabox + p:hover{
+  background-color:gold;
+}
+
+/* Active State */
+
+.parabox + p:active{
+  background-color:silver;
+}
+
+/* ==========================
+   Element Selector
+========================== */
+
+h1{
+  background-color:blueviolet;
+}
+
+/* ==========================
+   Class Selector
+========================== */
+
+.x{
+  background-color:aquamarine;
+}
+
+/* ==========================
+   First Child Pseudo Class
+
+   Select paragraph only if
+   it is first child of parent
+========================== */
+
+p:first-child{
+  background:black;
+  color:white;
+}
+
+
